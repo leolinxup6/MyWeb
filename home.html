@@ -1,174 +1,229 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!--
-Template Name: PhotoBusiness
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<title>PhotoBusiness</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>personal website</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/body.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
 </head>
-<body id="top">
-<div class="wrapper col1">
-  <div id="topbar">
-    <div id="search">
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Site Search</legend>
-          <input type="text" value="Search the site&hellip;"  onfocus="this.value=(this.value=='Search the site&hellip;')? '' : this.value ;" />
-          <input type="submit" name="go" id="go" value="GO" />
-        </fieldset>
-      </form>
-    </div>
+<body class="guitar" background="image/background.jpg">
+	<!--導覽列開始-->
+	<nav class="navbar navbar-expand-lg navbar fixed-top navbar-light bg-light">
+  		<a class="navbar-brand" href="home.html"><img src="image/logo.png"></a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+    		<ul class="navbar-nav">
+      			<li class="nav-item active">
+        			<a class="nav-link" href="home.html">首頁 <span class="sr-only">(current)</span></a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#school">學歷背景</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#club">社團活動經驗</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#interesting">興趣/目標</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#expectation">自我期許</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#contact">聯絡資訊</a>
+      			</li>
+    		</ul>
+  		</div>
+  		<div >
+  			<a href="https://www.facebook.com/tian.cai.3154"><img class="social" src="image/fb.png" width="5%" height="5%"></a>
+  			<a href="https://www.instagram.com/fatfat_0526/?hl=zh-tw"><img class="social" src="image/ig.png" width="5%" height="5%"></a>
+  		</div>
+	</nav>
+	<!--導覽列結束-->
+	<!--banner開始-->
+	<div class="banner">
+  		<div class="row">
+    		<div class="col-sm">
+      			<img class="circle" src="image/banner1.JPG">
+    		</div>
+    	<div class="col-sm">
+      			<img class="circle" src="image/banner2.JPG">
+    	</div>
+    	<div class="col-sm">
+      			<img class="circle" src="image/banner3.JPG">
+    	</div>
   </div>
 </div>
-<div class="wrapper col2">
-  <div id="header">
-    <div id="logo">
-      <h1><a href="index.html">PhotoBusiness</a></h1>
-      <p>Free Website Template</p>
-    </div>
-    <ul id="topnav">
-      <li class="last"><a href="#">Link Text</a></li>
-      <li><a href="#">DropDown</a>
-        <ul>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 3</a></li>
-        </ul>
-      </li>
-      <li><a href="pages/full-width.html">Full Width</a></li>
-      <li><a href="pages/style-demo.html">Style Demo</a></li>
-      <li class="active"><a href="index.html">Home</a></li>
-    </ul>
-    <br class="clear" />
-  </div>
-</div>
-<div class="wrapper col3">
-  <div id="gallery">
-    <ul>
-      <li class="placeholder" style="background-image:url('layout/images/gallery-placeholder.gif');">Image Holder</li>
-      <li><a class="swap" href="#"><img src="images/gallery/1_s.gif" alt="" /><span><img src="images/gallery/1.gif" width="950" height="370" alt="" /></span></a></li>
-      <li><a class="swap" href="#"><img src="images/gallery/2_s.gif" alt="" /><span><img src="images/gallery/2.gif" width="950" height="370" alt="" /></span></a></li>
-      <li><a class="swap" href="#"><img src="images/gallery/3_s.gif" alt="" /><span><img src="images/gallery/3.gif" width="950" height="370" alt="" /></span></a></li>
-      <li><a class="swap" href="#"><img src="images/gallery/4_s.gif" alt="" /><span><img src="images/gallery/4.gif" width="950" height="370" alt="" /></span></a></li>
-      <li class="last"><a class="swap" href="#"><img src="images/gallery/5_s.gif" alt="" /><span><img src="images/gallery/5.gif" width="950" height="370" alt="" /></span></a></li>
-    </ul>
-  </div>
-</div>
-<div class="wrapper col4">
-  <div id="services">
-    <ul>
-      <li><a href="#"><strong>Weddings</strong><img src="images/demo/234x210.gif" alt="" /></a></li>
-      <li><a href="#"><strong>Corporate</strong><img src="images/demo/234x210.gif" alt="" /></a></li>
-      <li><a href="#"><strong>Lifestyle</strong><img src="images/demo/234x210.gif" alt="" /></a></li>
-      <li class="last"><a href="#"><strong>Events</strong><img src="images/demo/234x210.gif" alt="" /></a></li>
-      <li><a href="#"><strong>Artistic</strong><img src="images/demo/234x210.gif" alt="" /></a></li>
-      <li><a href="#"><strong>Infants</strong><img src="images/demo/234x210.gif" alt="" /></a></li>
-      <li><a href="#"><strong>Architecture</strong><img src="images/demo/234x210.gif" alt="" /></a></li>
-      <li class="last"><a href="#"><strong>Black &amp; White</strong><img src="images/demo/234x210.gif" alt="" /></a></li>
-    </ul>
-    <br class="clear" />
-  </div>
-</div>
-<div class="wrapper col5">
-  <div id="container">
-    <div id="content">
-      <h2>About This Free CSS Template</h2>
-      <p>This is a W3C standards compliant free website template from <a href="http://www.os-templates.com/">OS Templates</a>.</p>
-      <p>This template is distributed using a <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>, which allows you to use and modify the template for both personal and commercial use when you keep the provided credit links in the footer.</p>
-      <p>For more CSS templates visit <a href="http://www.os-templates.com/">Free Website Templates</a>.</p>
-      <p>Lacusenim inte trices lorem anterdum nam sente vivamus quis fauctor mauris. Wisinon vivamus wisis adipis laorem lobortis curabiturpiscingilla dui platea ipsum lacingilla.</p>
-      <p>Semalique tor sempus vestibulum libero nibh pretium eget eu elit montes. Sedsemporttis sit intesque felit quis elis et cursuspenatibulum tincidunt non curabitae.</p>
-    </div>
-    <div id="column">
-      <div class="flickrbox">
-        <h2 class="title">Flickr</h2>
-        <ul>
-          <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
-          <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
-          <li class="last"><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
-          <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
-          <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
-          <li class="last"><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
-        </ul>
-        <br class="clear" />
-      </div>
-    </div>
-    <br class="clear" />
-  </div>
-</div>
-<div class="wrapper col6">
-  <div id="footer">
-    <div id="contactform">
-      <h2>Why Not Contact Us Today !</h2>
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Contact Form</legend>
-          <label for="fullname">Name:
-            <input id="fullname" name="fullname" type="text" value="" />
-          </label>
-          <label for="emailaddress" class="margin">Email:
-            <input id="emailaddress" name="emailaddress" type="text" value="" />
-          </label>
-          <label for="message">Message:<br />
-            <textarea id="message" name="message" cols="40" rows="4"></textarea>
-          </label>
-          <p>
-            <input id="submitform" name="submitform" type="submit" value="Submit" />
-            &nbsp;
-            <input id="resetform" name="resetform" type="reset" value="Reset" />
-          </p>
-        </fieldset>
-      </form>
-    </div>
-    <!-- End Contact Form -->
-    <div id="compdetails">
-      <div id="officialdetails">
-        <h2>Company Information !</h2>
-        <ul>
-          <li>Copyright &copy; 2014 - All Rights Reserved</li>
-          <li>Company Name Ltd</li>
-          <li>Registered in England &amp; Wales</li>
-          <li>Company No. xxxxxxx</li>
-          <li class="last">VAT No. xxxxxxxxx</li>
-        </ul>
-        <h2>Stay in The Know !</h2>
-        <p><a href="#">Get Our E-Newsletter</a> | <a href="#">Grab The RSS Feed</a></p>
-      </div>
-      <div id="contactdetails">
-        <h2>Our Contact Details !</h2>
-        <ul>
-          <li>Company Name</li>
-          <li>Street Name &amp; Number</li>
-          <li>Town</li>
-          <li>Postcode/Zip</li>
-          <li>Tel: xxxxx xxxxxxxxxx</li>
-          <li>Fax: xxxxx xxxxxxxxxx</li>
-          <li>Email: info@domain.com</li>
-          <li class="last">LinkedIn: <a href="#">Company Profile</a></li>
-        </ul>
-      </div>
-      <div class="clear"></div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</div>
-<div class="wrapper col7">
-  <div id="copyright">
-    <ul>
-      <li><a href="#">Online Privacy Policy</a></li>
-      <li><a href="#">Terms of Use</a></li>
-      <li><a href="#">Permissions &amp; Trademarks</a></li>
-      <li class="last"><a href="#">Product License Agreements</a></li>
-    </ul>
-    <p>Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <div class="clear"></div>
-  </div>
-</div>
+	  <div>
+  		<p class="welcome">哈囉，我是曾宇辰！</p>
+  	</div>
+  	<!--banner結束-->
+  	<!--學歷背景開始-->
+  	<a name="school">
+  	<hr class="style-one">
+  	<br>
+	<div class="liltitle">
+		<span class="title">學歷背景</span>
+	</div>
+	<div class="schoolmarleft">
+    	<div class="row">
+			<img src="image/school1.jpg" class="radius">
+			<div class="col-sm" id="introduceschool">
+				<p class="content"><br>
+					　　我畢業於桃園的中壢高商，這是一所我非常喜愛的學校，有多喜歡呢？如果人生有第二次，我還是會選擇這所學校。<br>
+					　　我是一名高職生，我高中的科系就是資料處理科，等於我上了大學是直升差不多的科系。我國中的時候就覺得對程式設計方面有興趣，桃園裡面有在學程式、名聲又比較好的就只有中壢高商，於是我就進來了這間職校。<br>
+					　　跟高中生不一樣的是我們從進高職後，就等於被綁住你未來大學的走向了。考統測能上的幾乎都是科大，而且只能選擇同個類群的，如果要跨考類群或是考學測要比別人付出不知道多少倍的努力，所以要慎選，好險我至今為止都還滿喜歡這個科系的。<br>
+					　　在高中三年，除了很專心的玩社團，我和我們班的兄弟們還做過了很多瘋狂的事情，我在聖誕節的時候扮成聖誕老公公、在學校裡面拍大大小小的影片、做一些總是會引人注目的事情，高二那年是我高中生涯的巔峰，那年高一到高三幾乎都知道我是誰，班導和任課老師都對我們又愛又恨，因為他們覺得我們很可愛，但是又很頑皮。<br>
+					　　高中三年是我人生中最精彩的時光，雖然還是有些許課業壓力畢竟還要升學，但跟現在比起來已經算是無憂無慮了。這三年在中壢高商真的過得非常開心。
+				</p>
+			</div>
+  		</div>
+	</div>
+	<div class="schoolmarright">
+    	<div class="row">		
+			<div class="col-sm" id="introduceschool">
+				<p class="content"><br>
+					　　我現在就讀於桃園的中原大學，高職要升上普通大學有難度，要考跟前端國立科大差不多的成績，所以表示我很聰明哈哈哈。<br>
+					　　上了大學之後突然覺得很迷惘，以前是沒得選擇，現在是可以選擇的東西太多了，就像是把被關在監獄50年的人放出來一樣，在小地方待習慣了突然獲得自由，沒有一個明確的目標，會直接失去方向。<br>
+					　　上大學後我首先做的第一件事就是繼續精進自己的程式技術，大一的時候在課業上還滿認真的，但是後來系學會跟社團活動逐漸多了我就好像發現新大陸一樣，頭也不回的就往熱衷參與活動的路前進了。直到現在才兩年而已，我參加或舉辦的活動已經是高中的不知道幾倍，我的生活非常地充實，在社團跟系學會兩邊也都要當上幹部了，學業也沒有落後太多，目前我的大學生活還是在我的理想狀態內。<br>
+					　　希望我可以在大學的這幾年，找到我接下來到底該往哪個方向走，不要一直處在迷惘中。
+				</p>
+			</div>
+			<img src="image/school2.jpg" class="radius">
+  		</div>
+	</div>
+	</a>
+	<!--學歷背景結束-->
+	<!--社團活動經驗開始-->
+	<a name="club">
+	<hr class="style-one">
+  	<br>
+	<div class="liltitle">
+		<span class="title">社團活動經驗</span><br><br><br>
+	</div>
+	<div class="club">
+  		<div class="row">
+    		<div class="col-sm">
+      			<img class="radius" src="image/club1.jpg">
+    		</div>
+    		<div class="col-sm">
+      			<img class="radius" src="image/club2.jpg">
+    		</div>
+    		<div class="col-sm">
+      			<img class="radius" src="image/club3.jpg">
+    		</div>
+  		</div>
+  	</div>
+  	<div class="club">
+  		<div class="row">
+    		<div class="col-sm">
+      			<p class="content" id="introduceclub">
+      			系學會<br>
+				因為大一參加了系學會許多的活動，讓我燃起了對於舉辦這些活動的熱情，因此我在大二的時候加入了系學會，擔任執行秘書以及活動股股員、公關股股員，並與我的超級好夥伴們一同舉辦大大小小的系上活動，ex：資管之夜、資韻獎、迎新宿營……等。
+      			</p>
+    		</div>
+    		<div class="col-sm">
+      			<p class="content" id="introduceclub">
+      			吉他社<br>
+      			我在高中的時候就是吉他社的幹部，於是上了大學理所當然的也加入了吉他社。我的興趣就是玩音樂，主唱、吉他手、鼓手我都可以擔任，在吉他社的時光總是非常愉快。我熱衷於和我的主唱一起報名大大小小的表演以及比賽，在學校還會和社團同伴們共同舉辦成果發表會、吉他營、大活動音樂會……等有趣的活動。
+      			</p>
+    		</div>
+    		<div class="col-sm">
+      			<p class="content" id="introduceclub">
+      			系排<br>
+      			在高三的時候我看了一部叫排球少年的漫畫，就接觸到了排球這項運動。高三的時候就在亂亂打打出了興趣來，上了大學知道有排球隊之後就加了進去。經過系統的訓練之後覺得排球又更加有趣了，於是就打到了現在。我負責的位置是副攻，是一個要會防禦、要會攻擊、也要會舉球的位置。
+      			</p>
+    		</div>
+  		</div>
+  	</div>
+  	</a>
+  	<!--社團活動經驗結束-->
+  	<!--興趣/目標開始-->
+  	<a name="interesting">
+  	<hr class="style-one">
+  	<br>
+  	<div class="tomiddle">
+  		<div class="row">
+    		<div class="col-sm">
+      			<span class="title">興趣</span><br><br><br>
+    		</div>
+    		<div class="col-sm">
+      			<span class="title">目標</span><br><br><br>
+    		</div>
+  		</div>
+  	</div>
+	<div class="tomiddle">
+  		<div class="row">
+    		<div class="col-sm">
+      			<img class="radius" src="image/interesting.jpg">
+    		</div>
+    		<div class="col-sm">
+      			<img class="radius" src="image/target.jpg">
+    		</div>
+  		</div>
+  	</div>
+  	<div class="tomiddle">
+  		<div class="row">
+    		<div class="col-sm">
+      			<p class="content" id="introduceinteresting">
+      				我的興趣就是玩音樂，我最擅長吉他和木箱鼓，也可以唱歌，喜歡自彈自唱。除此之外我還對很多樂器都有興趣，像是薩克斯風、BASS、電子琴、合成器……等等。<br>
+      				我還喜歡創作，一直有在嘗試自己寫歌，但總是做出來後又覺得不好聽就把作品刪掉。
+      			</p>
+    		</div>
+    		<div class="col-sm">
+      			<p class="content" id="introduceinteresting">
+      				如果不談能不能吃飽、養家的話，我的目標會是往音樂這條路走，而不會從事大學學到的資管專業。能夠把興趣當飯吃應該是所有人的夢想。但是總是不能逃避賺錢養家這件事，所以我現在的目標還是時常練習撰寫程式的能力，並加強英文，讓多益提升到至少600分，這樣出去找工作好找薪水也可能比較高。
+      			</p>
+    		</div>
+  		</div>
+  	</div>
+  	</a>
+  	<!--興趣/目標結束-->
+  	<!--自我期許開始-->
+  	<a name="expectation">
+  	<hr class="style-one">
+  	<br>
+	<div class="liltitle">
+		<span class="title">大學四年的自我期許</span><br><br><br>
+	</div>
+	<div class="tomiddle">
+		<p class="contentexpectation" id="expectation">
+			大學對自我的期許不外乎就是要把課業都顧好，包含這學期在內的五個學期都不要再有被當的科目了，英文可以加強到多益600分以上，有至少一次出國交換學生的經驗，要不斷的挑戰、磨練自己，讓自己成長，不要總是待在舒適圈、同溫層裡面。專業技能以及興趣希望都能夠有飛躍性的進步，專業技能方面希望我可以在四年內就變成可以獨當一面的網頁工程師，興趣方面我希望可以自己採譜、唱歌更好聽、cover編排的更加複雜，技巧練到熟到不行，寫出幾首好聽的歌。
+		</p>
+	</div>
+	</a>
+	<!--自我期許結束-->
+	<!--聯絡資訊開始-->
+	<a name="contact">
+	<hr class="style-one">
+  	<br>
+  	<div>
+		<p class="info" id="info">
+			☎電話：<br>
+			0970750526
+			<br>
+			🏠地址：<br>
+			桃園市中壢區青埔里新生路三段819巷11號
+			<br>
+			✉E-mail：<br>
+			harry4536610@gmail.com
+		</p>
+	</div>
+	</a>
+	<!--聯絡資訊結束-->
+	<footer>
+		<div class="row">
+			<div class="col-sm" id="footer">
+				Copyright © 2019 曾宇辰 版權所有
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

@@ -1,0 +1,154 @@
+body.guitar{
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+img.social{
+	position: relative;
+	right: -900px;
+}
+
+div.banner{
+	margin-top: 10%;
+	text-align: center;
+}
+
+div.liltitle{ 
+	position: relative;
+	text-align: center;
+}
+
+div.liltitleleft{
+	position: relative;
+	left: 25%
+}
+
+div.liltitleright{
+	position: relative;
+	right: 25%
+}
+
+div.schoolmarleft{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+div.schoolmarright{
+	margin-top:50px;
+	margin-right:50px;
+}
+
+div.club{
+	text-align: center;
+}
+
+.tomiddle{
+	text-align: center;
+}
+
+span.title{
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	box-shadow: 0 0 10px 1px white;
+	font-family: 微軟正黑體;
+	font-size: 40px;
+	color: white;
+	padding-right: 20px;
+	padding-left: 20px
+}
+
+p.welcome{
+	font-family: 微軟正黑體;
+	font-size: 48px;
+	color: white;
+	text-align: center;
+}
+
+p.content{
+	font-family: 微軟正黑體;
+	font-size: 20px;
+}
+
+p.contentexpectation{
+	font-family: 微軟正黑體;
+	font-size: 32px;
+}
+
+p.info{
+	padding-left: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: 微軟正黑體;
+	font-size: 32px;
+}
+
+hr.style-one{
+	border: 1;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+}
+
+img.radius{
+	border-radius: 10px;
+
+}
+
+img.circle{
+	border-radius: 50%;
+	border:2px solid #fff;
+	box-shadow: 0 0 10px 1px white;
+
+}
+
+#introduceschool{
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0 0 10px 1px white;
+}
+
+#introduceclub{
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0 0 10px 1px white;
+	max-width: 441px;
+	position: relative;
+	left: 14%
+}
+
+#introduceinteresting{
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0 0 10px 1px white;
+	max-width: 500px;
+	position: relative;
+	left: 23.5%
+}
+
+#expectation{
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0 0 10px 1px white;
+	max-width: 80%;
+	position: relative;
+	left: 10%
+}
+
+#info{
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0 0 10px 1px white;
+	max-width: 90%;
+	position: relative;
+	left: 5%
+}
+
+#footer{
+	text-align: center;
+	background-color: rgba(255,255,255,1);
+	max-width: 100%;
+	max-height: 10%;
+	font-size: 28px;
+	font-family: 微軟正黑體;
+}

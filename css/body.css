@@ -7,7 +7,7 @@ body.background{
 
 img.social{
 	position: relative;
-	right: -900px;
+	right: -800px;
 }
 
 div.banner{
@@ -30,21 +30,17 @@ div.liltitleright{
 	right: 25%
 }
 
-div.schoolmarleft{
+div.firstmarleft{
 	margin-top: 50px;
 	margin-left: 50px;
 }
 
-div.schoolmarright{
+div.secondmarright{
 	margin-top:50px;
 	margin-right:50px;
 }
 
-div.club{
-	text-align: center;
-}
-
-.tomiddle{
+div.photo{
 	text-align: center;
 }
 
@@ -71,11 +67,6 @@ p.content{
 	font-size: 20px;
 }
 
-p.contentexpectation{
-	font-family: 微軟正黑體;
-	font-size: 32px;
-}
-
 p.info{
 	padding-left: 15%;
 	padding-top: 5%;
@@ -92,7 +83,6 @@ hr.style-one{
 
 img.radius{
 	border-radius: 10px;
-
 }
 
 img.circle{
@@ -102,37 +92,19 @@ img.circle{
 
 }
 
-#introduceschool{
+#introduce{
 	border-radius: 10px;
 	background-color: rgba(255,255,255,0.5);
 	box-shadow: 0 0 10px 1px white;
 }
 
-#introduceclub{
+#introducephoto{
 	border-radius: 10px;
 	background-color: rgba(255,255,255,0.5);
 	box-shadow: 0 0 10px 1px white;
 	max-width: 441px;
 	position: relative;
 	left: 14%
-}
-
-#introduceinteresting{
-	border-radius: 10px;
-	background-color: rgba(255,255,255,0.5);
-	box-shadow: 0 0 10px 1px white;
-	max-width: 500px;
-	position: relative;
-	left: 23.5%
-}
-
-#expectation{
-	border-radius: 10px;
-	background-color: rgba(255,255,255,0.5);
-	box-shadow: 0 0 10px 1px white;
-	max-width: 80%;
-	position: relative;
-	left: 10%
 }
 
 #info{
